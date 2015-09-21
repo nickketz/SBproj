@@ -1,0 +1,25 @@
+GROUNDSPEED = 1;
+HEADINGINCOLOR = 2;
+ROLL = 3;
+XGYRO = 4;
+YGYRO = 5;
+ZGYRO = 6;
+ALTITUDE = 7;
+LEFTTOE = 8;
+LEFTHEEL = 9;
+RIGHTTOE = 10;
+RIGHTHEEL = 11;
+TOEMINUSHEEL = 12;
+
+SaveNames{1} = 'GroundSpeed';
+SaveNames{2} = 'GPSHeading';
+SaveNames{3} = 'Roll';
+SaveNames{4} = 'Xgyro';
+SaveNames{5} = 'Ygyro';
+SaveNames{6} = 'Zgryo';
+SaveNames{7} = 'Alt';
+SaveNames{8} = 'LeftToe';
+SaveNames{9} = 'LeftHeel';
+SaveNames{10} = 'RightToe';
+SaveNames{11} = 'RightHeel';
+SaveNames{12} = 'ToeMinusHeel';

@@ -1,0 +1,35 @@
+Snowboard Data Schema:
+
+Attitude (ATT) Log Entry:
+1.	Timestamp (milliseconds)
+2.	Roll (degrees)
+3.	Pitch (degrees)
+4.	Yaw (degrees)
+
+GPS Log Entry:
+1.	Timestamp (milliseconds)
+2.	GPS time (hhmmss.sss * 1000 in UTC)
+3.	GPS Status (0 = No Lock, 1 = Lock)
+4.	Number of satellites acquired
+5.	Latitude (degrees)
+6.	Longitude (degrees)
+7.	Altitude (meters)
+8.	Altitude via GPS along (meters)
+9.	Ground speed (m/s)
+10.	Ground course (degrees)
+
+Raw Data Entry:
+1.	Timestamp (milliseconds)
+2.	X-axis gyro (rad/s)
+3.	Y-axis gyro (rad/s)
+4.	Z-axis gyro (rad/s)
+5.	X-axis accelerometer (m/s2)
+6.	Y-axis accelerometer (m/s2)
+7.	Z-axis accelerometer (m/s2)
+
+Foot Pressure Entry:
+1.	Timestamp (milliseconds)
+2.	Right heel pressure (volts / 1024)
+3.	Right toe pressure (volts / 1024)
+4.	Left heel pressure (volts / 1024)
+5.	Left toe pressure (volts / 1024)
